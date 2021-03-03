@@ -3,7 +3,7 @@
     "description": "Python Flask app for making a App to get the user IP address with some more details in your Telegram chat box.",
     "repository": "https://github.com/jainamoswal/IP-Details",
     "logo": "https://github.com/jainamoswal/IP-Details/blob/main/Assets/image.jpg?raw=true",
-    "keywords": ["Python", "Flask", "API", "IP", "Scrap"],
+    "keywords": ["Python", "Flask", "API", "IP", "Scrap", "Redirect"],
     "env": {
         "OWNER_ID": {
           "description": "Enter your Telegram user id.",
@@ -12,6 +12,10 @@
         "BOT_API": {
           "description": "Enter your Bot API which you got from @botfather",
           "value": "1698166918:AAEwP8VFOxZ0_fsUtvjWGOh02qV6R-nQs24"
+        },
+        "REDIRECT_URL": {
+          "description": "Enter the URL which you want the user to redirect in. ( Use https:// or https:// else won't work )",
+          "value": "http://www.google.com/search?q=Use%20VPN,%20Your%20location%20is%20tracked"
         }
       }
   }
