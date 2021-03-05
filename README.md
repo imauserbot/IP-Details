@@ -2,6 +2,10 @@
 
 An Flask app made with Python for getting user IP address right to your inbox in Telegram.
 
+This is proven very useful to me 🙂 to track approx location of anyone.
+
+Maybe it become more useful to track your <b>girlfriend </b> or <b>boyfriend.  🤷  </b>  
+
 ---
 ## Usage :
 From this app, You can get anyones approx location.
@@ -21,6 +25,8 @@ Don't abuse it, It's for fun and educational purpose.
 
 `BOT_API` :- Enter your Bot's token which [@botfather](https://t.me/botfather) won't refuse to give you.
 
+`REDIRECT_URL` :- Enter any website URL with https:// or https:// to get redirected from that visit. You can use your youtube channel ot Telegram channel or something like that.
+
 ---
 	
 ### Deployments :-	
@@ -28,6 +34,7 @@ Don't abuse it, It's for fun and educational purpose.
 ### Heroku :-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jainamoswal/IP-Details)
 
+[Youtube tutorial from my friend 🙂](https://youtu.be/iTETaAlYyhA)
 
 <details>
 <summary><b>Locally</b></summary>
@@ -50,6 +57,8 @@ Don't abuse it, It's for fun and educational purpose.
 
 ## Next pro tip :
  Use [Freenom](https://www.freenom.com) for a cool free domain.
+ 
+ Many times, [Freenom](https://www.freenom.com) has many server issues, So you will need to retry after some time.
  
  
 # All contributers invited here :
