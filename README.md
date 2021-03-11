@@ -32,7 +32,7 @@ Don't abuse it, It's for fun and educational purpose.
 ### Deployments :-	
 
 ### Heroku :-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/jainamoswal/IP-Details)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/imauserbot/IP-Details)
 
 [Youtube tutorial from my friend 🙂](https://youtu.be/iTETaAlYyhA)
 
